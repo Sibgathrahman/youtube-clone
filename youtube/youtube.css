@@ -1,0 +1,150 @@
+.header-first{
+    display: flex;
+    align-items: center;
+}
+
+.header-first img{
+    height: 60px;
+    width: 100px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.material-icons{
+    font-size: x-large;
+    color: rgb(36, 36, 36);
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.header-second{
+    display: flex;
+    align-items: center;
+}
+
+.search .material-icons{
+    background-color: rgb(230, 230, 230);
+    border: 5px;
+    height: 30px;
+    width: 40px;
+    padding-top: 5px;
+    justify-content: center;
+}
+
+.search .material-icons:hover{
+    background-color: rgb(187, 184, 184);
+}
+
+.header-second input{
+    width: 400px;
+    height: 25px;
+}
+
+.user-photo{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.side{
+    padding-top: 20px;
+    width: 15%;
+    height: 630px;
+    overflow-y: scroll;
+}
+
+.side-icons{
+    display: flex;
+    align-items: center;
+}
+
+.side-icons p{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.side-content{
+    padding-left: 20px;
+    color: gray;
+    font-size: medium;
+    font-style: inherit;
+}
+
+.side-icons:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+.footer{
+    font-size: small;
+    color: rgb(145, 143, 143);
+}
+
+.main-body{
+    display: flex;
+}
+
+.right-header{
+    display: flex;
+    overflow-x: scroll;
+    width: 1310px;
+}
+
+.right-top{
+    margin-left: 10px;
+    border-radius: 40%;
+    border: 5px;
+    border-color: black;
+    background-color: lightgrey;
+    height: 50px;
+    align-items: center;
+}
+
+.channel-photo{
+    margin-top: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.video .thump{
+    height: 160px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.video-bottom{
+    display: flex;
+    /* align-items: center; */
+}
+
+.video-bottom p{
+    padding-left: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.last{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video-part{
+    padding: 10px;
+}
+
+.first-row{
+    display: flex;
+}
+
+
